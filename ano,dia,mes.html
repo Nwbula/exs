@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	var dia = parseInt(prompt("digite os dias")) 
+		mes = 0
+		ano = 0
+
+		
+		if(dia>365){
+			ano = parseInt(dia/365)
+			dia = dia%365
+ }
+
+		if(dia>30){
+			mes = parseInt(dia/30)
+			mes = dia%30
+ }
+
+
+		document.write("dias = " + dia + ", meses = " + mes + ", anos = " + ano)
+
+
+
+</script>
+</body>
+</html>
